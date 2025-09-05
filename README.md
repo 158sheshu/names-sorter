@@ -13,7 +13,7 @@
 ## 3. Test cases also implemented    
 
 
-# Name Sorter
+# Names Sorter
 
 A console app that sorts names by last name, then given names.  
 Prints the sorted list to screen and writes it to `sorted-names-list.txt`.
