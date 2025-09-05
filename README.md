@@ -10,6 +10,19 @@ Implementation(Java, SOLID Applied)
 . OCP : Sorting logic can be extended without modifying core. 
 . DI : Passes sevices to controller(Main.java). 
 . ISP & LSP : Uses Interfaces for flexibility
-3. Run mvn clean install
-   java -jar target/name-sorter-1.0-SNAPSHOT.jar unsorted-names-list.txt
-4. Test cases also implemented    
+3. Test cases also implemented    
+
+
+# Name Sorter
+
+A console app that sorts names by last name, then given names.  
+Prints the sorted list to screen and writes it to `sorted-names-list.txt`.
+
+## Build
+mvn clean package
+
+Run:
+java -jar target/name-sorter-1.0-SNAPSHOT.jar unsorted-names-list.txt
+
+Test
+mvn test
