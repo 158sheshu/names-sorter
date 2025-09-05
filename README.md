@@ -6,10 +6,10 @@
 . Sorting Rule: Sort by last name, then by given names.
 ## 2. System Design
 ## Implementation(Java, SOLID Applied) 
-## . SRP : Each class does one thing(eg, sorting, reading, writing). 
-## . OCP : Sorting logic can be extended without modifying core. 
-## . DI : Passes sevices to controller(Main.java). 
-## . ISP & LSP : Uses Interfaces for flexibility
+. SRP : Each class does one thing(eg, sorting, reading, writing). 
+. OCP : Sorting logic can be extended without modifying core. 
+. DI : Passes sevices to controller(Main.java). 
+. ISP & LSP : Uses Interfaces for flexibility
 ## 3. Test cases also implemented    
 
 
